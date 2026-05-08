@@ -106,6 +106,60 @@ hr
 {
     margin-top: 20px;
 }
+.tank300
+{
+display: flex;
+margin-top: 150px;
+margin-left: 100px;
+gap: 100px;
+}
+.imgcar
+{
+    margin-top: 50px;
+}
+.redtext
+{
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+}
+input
+{
+    padding: 10px;
+    width: 300px;
+    background-color: #181818;
+}
+.cardsflex
+{
+    display: flex;
+    margin-left: 70px;
+    gap: 50px;
+    margin-top: 50px;
+}
+.cards
+{
+    background-color: #181818;
+    border-radius: 10px;
+    width: 250px;
+}
+.imegs
+{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.none
+{
+    display: none;
+}
+.texts
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
 
 
 
@@ -175,5 +229,32 @@ hr
         margin-left: -450px;
         width: 30px;
         position: sticky;
+    }
+    .tank300
+    {
+        display: block;
+        margin-left: 40px;
+    }
+    .imgcar
+    {
+        margin-left: -70px;
+        width: 400px;
+    }
+    .cardsflex
+    {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .imegs
+    {
+        display: none;
+    }
+    .none
+    {
+        display: block;
+        margin-left: 40px;
+        margin-top: 40px;
     }
 }
