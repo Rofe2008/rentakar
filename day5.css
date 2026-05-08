@@ -158,6 +158,18 @@ input
     text-align: center;
     margin-top: 100px;
 }
+.inflex1
+{
+    display: flex;
+    margin-left: 160px;
+    gap: 30px;
+    margin-top: 40px;
+}
+.jeep
+{
+    margin-top: 60px;
+    margin-left: 300px;
+}
 
 
 
@@ -256,5 +268,18 @@ input
         display: block;
         margin-left: 40px;
         margin-top: 40px;
+    }
+    .inflex1
+    {
+        display: block;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .jeep
+    {
+        width: 380px;
+        margin-left: -0;
     }
 }
