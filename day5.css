@@ -78,6 +78,34 @@ hr
     margin-top: -350px;
     margin-left: 100px;
 }
+.skorost
+{
+    margin-left: 280px;
+    margin-top: 20px;
+}
+.boxses
+{
+    display: flex;
+    margin-left: 120px;
+    gap: 20px;
+    margin-top: 30px;
+}
+.box
+{
+    border: 1px solid grey;
+    width: 330px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.textavto
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.twocar
+{
+    margin-top: 20px;
+}
 
 
 
@@ -125,5 +153,27 @@ hr
     {
         margin-top: 30px;
         margin-left: 30px;
+    }
+    .skorost
+    {
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 10px;
+        width: 380px;
+    }
+    .boxses
+    {
+        display: block;
+        margin-top: 350px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .twocar
+    {
+        margin-left: -450px;
+        width: 30px;
+        position: sticky;
     }
 }
