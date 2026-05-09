@@ -170,7 +170,34 @@ input
     margin-top: 60px;
     margin-left: 300px;
 }
-
+.lexus
+{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 300px;
+    gap: 70px;
+}
+.push
+{
+    background-color: #FF9549;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+    width: 200px;
+}
+.redcar
+{
+    margin-top: 50px;
+}
+.none2
+{
+    display: block;
+}
+.none3
+{
+    display: none;
+}
 
 
 
@@ -282,4 +309,21 @@ input
         width: 380px;
         margin-left: -0;
     }
+    .lexus
+    {
+        display: block;
+        margin-left: 10px;
+        width: 300px;
+    }
+    .none2
+    {
+        display: none;
+    }
+    .none3
+    {
+        display: block;
+        margin: 30px;
+        margin-top: 100px;
+    }
+
 }
